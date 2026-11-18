@@ -1,1 +1,5 @@
 blank_issues_enabled: true
+contact_links:
+  - name: Linux already runs on my laptop
+    url: https://arewearmyet.com/help#check
+    about: Run the probe there. It measures what works and puts it on the model's page, without a report.

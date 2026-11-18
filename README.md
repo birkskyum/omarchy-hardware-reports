@@ -12,6 +12,14 @@ This repository collects that from as many Windows on Arm laptops as people will
 
 An Action checks the zip and opens a pull request that adds it under `reports/<manufacturer>/<product>/<report id>/`. [MODELS.md](MODELS.md) lists every model so far; another Action rewrites it after each report lands.
 
+## Once Linux runs on it
+
+A report is for a laptop that still has Windows. Once Linux boots on it, Omarchy or any other distro, the probe on [Are we ARM yet?](https://arewearmyet.com/help#check) takes over: it measures what works, from the screen and GPU to sound, battery and sleep, and puts the result on the model's page there.
+
+```sh
+curl -fsSL https://arewearmyet.com/probe.sh | bash
+```
+
 ## What a report holds
 
 | File | What it is |
